@@ -39,7 +39,7 @@ function createCard(article){
     imgDiv.appendChild(img);
 
     const authorName = document.createElement('span');
-    authorName.textContent = article.authorName;
+    authorName.textContent = 'By ' + article.authorName;
     author.appendChild(authorName);
 
     return newCard;
